@@ -1,0 +1,51 @@
+body{
+	background-color: #e6e9eb;
+}
+.container{
+	margin: 0 auto;
+	width: 1097px;
+
+}
+.header img{
+	margin-top: -25%;
+	margin-left: 13.748531%;
+
+
+}
+.content{
+
+	background-color: #73bbeb;
+	/*width: 77.575205%;*/
+	border-style:solid ;
+	border-color:#ffffff;
+	border-width:43px;
+	box-shadow: 10px 10px 39px -3px rgba(0,0,0,0.75);
+	margin-top: -2%;
+
+}
+.content img{
+		margin-left: 17.626321%;
+		margin-top: 24.206815%;
+		 -webkit-transition: all 1s ease;
+     	 -moz-transition: all 1s ease;
+         -o-transition: all 1s ease;
+         -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+.content img:hover{
+
+	-webkit-filter: blur(5px);
+}
+@media screen and (min-width: 400px) and (max-width: 800px) {
+/*Todo lo que añadamos aquí se utilizará solo en resoluciones X, donde 700px<=X<=1000px*/
+
+.header img{
+	width: 50%;
+}
+.content img{
+	width: 50%;
+	}
+	.container{
+		width:100%; 
+	}
+}
