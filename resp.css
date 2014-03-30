@@ -7,8 +7,8 @@ body{
 
 }
 .header img{
-	margin-top: -25%;
-	margin-left: 13.748531%;
+	margin-top: -30%;
+	margin-left: 18.748531%;
 
 
 }
@@ -36,16 +36,18 @@ body{
 
 	-webkit-filter: blur(5px);
 }
-@media screen and (min-width: 400px) and (max-width: 800px) {
+@media screen and (max-width: 980px) {
 /*Todo lo que añadamos aquí se utilizará solo en resoluciones X, donde 700px<=X<=1000px*/
 
 .header img{
-	width: 50%;
+	width: 70%;
+
 }
 .content img{
-	width: 50%;
+	width: 70%;
 	}
 	.container{
-		width:100%; 
+		width:70%;
+		border-width: 45%; 
 	}
 }
